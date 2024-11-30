@@ -76,4 +76,5 @@ Switch to the root user if you don't want to enter the password during the proce
 
 6. Step read and import
    ```bash
-   Read the report .txt and import the .pcap in Wishareshark to analazite it!
+   Read the report .txt and import the .pcap in Wishareshark to analazite it or use tcpdump with this command:
+   tcpdump -r file.pcap
