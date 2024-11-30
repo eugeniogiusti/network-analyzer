@@ -22,7 +22,6 @@ This script is designed to test a network resource and gather information for ac
    - Testing the target service manually.  
 3. The ongoing `tcpdump` collects all traffic, allowing for advanced analysis.  
 4. When testing is complete, type `ok` to terminate the script.
-5. If the network resource is not nearby, give the script time to perform the tests.  
 
 ## Compatibility  
 
