@@ -50,7 +50,7 @@ Ensure the following packages are installed for full functionality:
 2. **Clone or Download the Repository**  
    Download the script to your system or clone the repository:
    ```bash
-   git https://github.com/eugeniogiusti/network_analyzer.git
+   git clone https://github.com/eugeniogiusti/network_analyzer.git
    
    cd network_analyzer
 
