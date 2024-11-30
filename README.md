@@ -16,7 +16,7 @@ This script has been tested on **k 9.5**  **Linux** and **Red Hat**.
 2. Grant Execution Permissions
 Give the script executable permissions:
    ```bash
-   chmod +x install_tomcat.sh
+   chmod +x .sh
 
 
 4. Run the Script &
@@ -28,8 +28,7 @@ Switch to the root user if you don't want to enter the password during the proce
 
 6. 
    ```bash
-   firewall-cmd --zone=public --add-port=8080/tcp --permanent
-   firewall-cmd --reload
+   
   
 
 8. 
