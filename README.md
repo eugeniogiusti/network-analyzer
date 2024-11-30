@@ -26,11 +26,11 @@ Switch to the root user if you don't want to enter the password during the proce
    ./.sh
 
 
-6. 
+6. Step
    ```bash
    
   
 
-8. 
+8. Step
    ```bash
-   firewall-cmd --list-all
+   
