@@ -1,16 +1,51 @@
-# Network_analyzer --- Work in progress
+# Network analyzer troubleshooting Script  
 
-This script has been tested on **k 9.5**  **Linux** and **Red Hat**.  
+This script is designed to test a network resource and gather information for accurate troubleshooting.  
 
+## Features  
+
+- Operates at the network and port levels.  
+- Launches `tcpdump` during all tests to sniff traffic sent to the target machine.  
+  - Provides a comprehensive overview for advanced network analysis.  
+- Performs the following tests:  
+  - **Ping**  
+  - **Traceroute**  
+  - Option to perform a DNS lookup (`dig`) on an IP or DNS name.  
+  - Option to test if the target's TCP port is open using **Nmap**.
+  - tcpdump that records all activies
+
+## Recommended Usage  
+
+1. Run the script to perform initial network tests.  
+2. As a final step, conduct service-specific tests such as:  
+   - Logging in via SSH.  
+   - Testing the target service manually.  
+3. The ongoing `tcpdump` collects all traffic, allowing for advanced analysis.  
+4. When testing is complete, type `ok` to terminate the script.  
+
+## Compatibility  
+
+- This script has been tested on **MX Linux** and works perfectly.  
+- Feel free to test it on other systems.
+- If you encounter issues or want to improve the script, contributions are welcome!  
+
+## Prerequisites  
+
+Ensure the following packages are installed for full functionality:  
+- `tcpdump`  
+- `ping`  
+- `traceroute`  
+- `dig`  
+- `nmap`  
 
 ## How to Use
 
 1. **Make sure that you have the necessary packets**  
    Commands for debian and redhat distros:
    ```bash
-   apt install traceroute nmap bind9utils -y
+   apt install traceroute nmap bind9utils tcpdump -y
    
-   dnf install traceroute nmap bind-utils -y
+   dnf install traceroute nmap bind-utils tcpdump -y
 
 2. **Clone or Download the Repository**  
    Download the script to your system or clone the repository:
