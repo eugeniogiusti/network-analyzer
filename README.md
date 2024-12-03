@@ -78,3 +78,21 @@ Switch to the root user if you don't want to enter the password during the proce
    ```bash
    Read the report .txt and import the .pcap in Wishareshark to analazite it or use tcpdump with this command:
    tcpdump -r file.pcap
+
+
+## Troubleshooting Tips
+
+1. **Check the target's firewall**  
+   Ensure the service ports for incoming connections are open.
+
+2. **Verify services and configurations**  
+   Confirm that the services are running and check for any misconfigurations at the application level.
+
+3. **Inspect Layer 3 and Layer 2 issues**  
+   Look for potential problems, such as:
+   - Improperly configured routing.
+   - VLAN ACLs blocking traffic.
+
+4. **Investigate software/firmware bugs**  
+   Check for any known bugs in the software or firmware.
+
