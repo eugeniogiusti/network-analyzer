@@ -18,7 +18,7 @@ echo "===== Network Analyzer Report =====" > "$report_file"
 # STEP 1: Let's run tcpdump
 echo "STEP 1: Traffic capture with tcpdump" | tee -a "$report_file"
 read -p "Insert IP target: " target_ip
-echo "Run tcpdum, saving in ${pcap_file}..."
+echo "Run tcpdump, saving in ${pcap_file}..."
 sudo tcpdump -i any host "$target_ip" -w "$pcap_file" &
 tcpdump_pid=$!
 echo "Tcpdump runned in background (PID: $tcpdump_pid). Next steps..." | tee -a "$report_file"
