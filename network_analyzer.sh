@@ -38,7 +38,7 @@ echo "Traceroute completed." | tee -a "$report_file"
 # STEP 4: DNS check with dig
 echo "STEP 4: Check dns with DIG" | tee -a "$report_file"
 read -p "Do you wanna do a DIG check on the target machine? (Enter to confirm, no/n to jump): " dig_choice
-if [[ "$dig_choice" =~ ^([sS][ìI]?|[sS]?|)$ ]]; then
+if [[ "$dig_choice" =~ ^([yY][eE][sS]?|[yY]?|)$ ]]; then
     read -p "Insert IP or DNS name: " dig_target
     dig_output=$(dig "$dig_target")
     echo "=== Dig Output ===" >> "$report_file"
