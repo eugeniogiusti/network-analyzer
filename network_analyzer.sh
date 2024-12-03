@@ -51,7 +51,7 @@ fi
 # STEP 5: port check with nmap
 echo "STEP 5: Check port with nmap. Make sure that it's a TCP port" | tee -a "$report_file"
 read -p "Doju wanna check if the port is open? (Enter to confirm, no/n to jump): " nmap_choice
-if [[ "$nmap_choice" =~ ^([sS][ìI]?|[sS]?|)$ ]]; then
+if [[ "$nmap_choice" =~ ^([yY][eE][sS]?|[yY]?|)$ ]]; then
     read -p "IP target: " nmap_ip
     read -p "port number (TCP): " nmap_port
     nmap_output=$(nmap -p "$nmap_port" "$nmap_ip")
