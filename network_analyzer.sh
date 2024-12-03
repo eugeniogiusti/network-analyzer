@@ -65,7 +65,7 @@ fi
 # STEP 6: manual test
 echo "STEP 6: Manual test of the service" | tee -a "$report_file"
 echo "Check your service for example try to enter in ssh or if it's a webpage try to enter and login whatever test you wanna do, Do it. There's the tcpdump in background that takes informations" | tee -a "$report_file"
-echo "Write 'ok' when you've done."
+echo "Write 'ok' when you've done and then press ENTER."
 while :; do
     read -p "> " service_test_done
     [[ "$service_test_done" == "ok" ]] && break
