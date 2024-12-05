@@ -21,7 +21,7 @@ This script is designed to test a network resource and gather information for ac
    - Try to login if it's a webpage or try to reach it. 
    - Logging in via SSH or any other service the target has.  
 4. The ongoing `tcpdump` collects all traffic, allowing for advanced analysis.  
-5. When testing is complete, type `ok` to terminate the script.
+5. When testing is complete, type `ok` and ENTER to terminate the script.
 
 ## Compatibility  
 
