@@ -80,6 +80,10 @@ Switch to the root user if you don't want to enter the password during the proce
    tcpdump -r file.pcap
 
 
+  ![ksnip_20241225-142244](https://github.com/user-attachments/assets/9110b496-9acb-42c7-857e-1d3bb1c7e37a)
+
+
+
 ## Troubleshooting Tips
 
 1. **Check the target's firewall**  
