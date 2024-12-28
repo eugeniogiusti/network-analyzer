@@ -78,7 +78,7 @@ sudo kill -2 "$tcpdump_pid" 2>/dev/null
 wait "$tcpdump_pid" 2>/dev/null
 echo "File .pcap saved like ${pcap_file}." | tee -a "$report_file"
 
-# last part
+# Last part
 echo "===== End of script =====" >> "$report_file"
 echo "Report saved like ${report_file}."
 echo ".pcap saved like ${pcap_file}."
