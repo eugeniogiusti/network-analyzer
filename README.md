@@ -12,7 +12,7 @@ This script is designed to test a network resource and gather information for ac
   - **Traceroute**  
   - Option to perform a DNS lookup (`dig`) on an IP or DNS name.  
   - Option to test if the target's TCP port is open using **Nmap**.
-  - tcpdump that records all activies
+  - tcpdump that records all activies.
 
 ## Recommended Usage  
 
