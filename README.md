@@ -2,23 +2,6 @@
 
 This script is designed to test a network resource and gather information for accurate troubleshooting.
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=j3VJVN3bZCw" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/j3VJVN3bZCw/hqdefault.jpg" alt="Network Analyzer Demo" />
-  </a>
-</p>
-
-<em>Click the thumbnail above to see the script in action on YouTube!</em>
-
-## Full Article
-
-<p>
-  For an in-depth guide, including usage tips and additional insights, please visit my blog post:
-  <a href="https://yourwebsite.com/assets/blog/analyzer.html" target="_blank" rel="noopener noreferrer">
-    <strong>Network Analyzer – Deep Dive</strong>
-  </a>
-</p>
-
 ## Features  
 
 - Operates at the network and port levels.  
@@ -119,4 +102,22 @@ Switch to the root user if you don't want to enter the password during the proce
 
 4. **Investigate software/firmware bugs**  
    Check for any known bugs in the software or firmware.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=j3VJVN3bZCw" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/j3VJVN3bZCw/hqdefault.jpg" alt="Network Analyzer Demo" />
+  </a>
+</p>
+
+<em>Click the thumbnail above to see the script in action on YouTube!</em>
+
+## Full Article
+
+<p>
+  For an in-depth guide, including usage tips and additional insights, please visit my blog post:
+  <a href="https://yourwebsite.com/assets/blog/analyzer.html" target="_blank" rel="noopener noreferrer">
+    <strong>Network Analyzer – Deep Dive</strong>
+  </a>
+</p>
+
 
