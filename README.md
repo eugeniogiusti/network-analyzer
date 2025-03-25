@@ -85,6 +85,7 @@ Switch to the root user if you don't want to enter the password during the proce
   ![ksnip_20241225-142435](https://github.com/user-attachments/assets/abdf295c-6a94-4bd7-a4c5-aa98586be3c0)
 
 
+![layout-old-2048x1418](https://github.com/user-attachments/assets/b3ba04cb-5d7b-4662-b149-73156ea2ffbb)
 
 
 ## Troubleshooting Tips
