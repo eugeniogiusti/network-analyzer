@@ -1,6 +1,18 @@
 # Network analyzer troubleshooting Script  
 
-This script is designed to test a network resource and gather information for accurate troubleshooting.  
+This script is designed to test a network resource and gather information for accurate troubleshooting.
+
+## Video Demo
+
+[![Network Analyzer Demo](https://img.youtube.com/vi/j3VJVN3bZCw/hqdefault.jpg)](https://www.youtube.com/watch?v=j3VJVN3bZCw)
+
+*Click the thumbnail above to see the script in action on YouTube!*
+
+## Full Article
+
+For an in-depth guide, including usage tips and additional insights, please visit my blog post:
+[**Network Analyzer – Deep Dive**](https://yourwebsite.com/assets/blog/analyzer.html)
+
 
 ## Features  
 
