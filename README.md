@@ -2,17 +2,22 @@
 
 This script is designed to test a network resource and gather information for accurate troubleshooting.
 
-## Video Demo
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=j3VJVN3bZCw" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/j3VJVN3bZCw/hqdefault.jpg" alt="Network Analyzer Demo" />
+  </a>
+</p>
 
-[![Network Analyzer Demo](https://img.youtube.com/vi/j3VJVN3bZCw/hqdefault.jpg)](https://www.youtube.com/watch?v=j3VJVN3bZCw)
-
-*Click the thumbnail above to see the script in action on YouTube!*
+<em>Click the thumbnail above to see the script in action on YouTube!</em>
 
 ## Full Article
 
-For an in-depth guide, including usage tips and additional insights, please visit my blog post:
-[**Network Analyzer – Deep Dive**](https://yourwebsite.com/assets/blog/analyzer.html)
-
+<p>
+  For an in-depth guide, including usage tips and additional insights, please visit my blog post:
+  <a href="https://yourwebsite.com/assets/blog/analyzer.html" target="_blank" rel="noopener noreferrer">
+    <strong>Network Analyzer – Deep Dive</strong>
+  </a>
+</p>
 
 ## Features  
 
