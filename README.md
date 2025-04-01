@@ -122,3 +122,10 @@ Switch to the root user if you don't want to enter the password during the proce
 </p>
 
 
+# Network Analyzer
+
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![Last Commit](https://img.shields.io/github/last-commit/eugeniogiusti/network-analyzer)
+![License](https://img.shields.io/github/license/eugeniogiusti/network-analyzer)
+![Top Language](https://img.shields.io/github/languages/top/eugeniogiusti/network-analyzer)
+![Shell Script](https://img.shields.io/badge/made%20with-bash-1f425f.svg)
