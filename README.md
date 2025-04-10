@@ -116,7 +116,7 @@ Switch to the root user if you don't want to enter the password during the proce
 
 <p>
   For an in-depth guide, including usage tips and additional insights, please visit my blog post:
-  <a href="https://eugeniogiusti.github.io/mywebsite/assets/blog/analyzer.html" target="_blank" rel="noopener noreferrer">
+  <a href="https://eugeniogiustitechsolutions.com/assets/blog/analyzer.html" target="_blank" rel="noopener noreferrer">
     <strong>Network Analyzer – Deep Dive</strong>
   </a>
 </p>
